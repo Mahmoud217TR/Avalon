@@ -1,0 +1,115 @@
+@import 'variables';
+
+body{
+    background-color: $deep!important;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-cloudy {
+    background-color: $cloudy !important;
+}
+
+.text-cloudy{
+    color: $cloudy!important;
+}
+
+.bg-lighten {
+    background-color: $lighten !important;
+}
+
+.btn-shallow,.btn-shallow:hover{
+    color: $light;
+    background-color: $shallow;
+    border-color: $shallow;
+}
+
+.btn-shallow:focus{
+    color: $light;
+    background-color: $shallow;
+    border-color: $shallow;
+    box-shadow: 0 0 0 0.25rem rgb(15 4 76 / 50%);
+}
+.cloudy-select{
+    background-color: $cloudy!important;
+}
+
+.border-shallow {
+    border-color: $shallow !important;
+}
+
+.text-lighten{
+    color: $lighten!important;
+}
+
+.of-x-clip{
+    overflow-x: clip;
+}
+
+.cloudy-dropdown{
+    background-color: $cloudy !important;
+}
+
+.cloudy-dropdown .dropdown-item, .dropdown-toggle{
+    font-weight: bolder;
+    color: $black!important;
+}
+
+.cloudy-dropdown .dropdown-item:focus, .cloudy-dropdown .dropdown-item:active{
+    background-color: $shallow !important;
+    color: $light!important;
+    font-weight: bolder;
+}
+
+.cloudy-dropdown .dropdown-item:focus img, .cloudy-dropdown .dropdown-item:active img{
+    filter: invert(100%);
+}
+
+.inverted{
+    filter: invert(100%);
+}
+
+.cloudy-dropdown .dropdown-item:hover{
+    cursor: pointer;
+}
+
+.cloudy-dropdown .dropdown-item-selected{
+    background-color: $shallow !important;
+    color: $light!important;
+    font-weight: bolder;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $navi-height;
+}
+
+.responsive-cell{
+    overflow-x: auto;
+}
+
+ .responsive-cell::-webkit-scrollbar {
+     width: 4rem;
+ }
+ 
+ .responsive-cell::-webkit-scrollbar-track {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+     border-radius: 4rem;
+ }
+ 
+ .responsive-cell::-webkit-scrollbar-thumb {
+     border-radius: 4rem;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+ }
+
+ .nav-filler{
+     min-height: $navi-height;
+ }
+
+ .svg-icon{
+     width: $svg-icon-wh;
+     height: $svg-icon-wh;
+     margin: $svg-icon-m $svg-icon-m;
+ }
